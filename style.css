@@ -3,7 +3,7 @@
   }
   
   body {
-      background: #3c9a74;
+      background: #6fb431;
   }
   header h1 {
     text-align: center;
@@ -63,6 +63,7 @@
   
   p {
     text-align: center;
+    margin: 0 20px;
   }
   
   .user-details {
@@ -126,4 +127,3 @@
       max-width: 50%;
     }
   }
-  
