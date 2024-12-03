@@ -5,7 +5,7 @@ function validateForm (event){
     input.forEach(input =>{
       if(!input.value.trim()){
         allFilled = false;
-        input.style.border
+        input.style.border 
         ="1px solid red"; // Highlight empty fields
       } else {
         input.style.border=""; // Remove highlight if filled
