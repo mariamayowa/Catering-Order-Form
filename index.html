@@ -29,14 +29,15 @@
                 </p>
                 <br></br>
                 <h4>
-                  Order Deadline: <strong>Monday, 16th December 2024</strong> </br>Limited Delivery Slots: <strong>Tuesday, 24th December</strong>
+                  Order Deadline: <strong>Monday, 16th December 2024</strong>
                 </h4>
                 <div class="container-form">
-                    <form onsubmit="validateForm(event)">
+                    <form action="https://api.web3forms.com/submit" method="POST" onsubmit="validateForm(event)">
                         <div class="user-details">
+                          <input type="hidden" name="access_key" value="c6d86020-12c3-433d-baf8-e3f8e615d0d3">
                           <div class="input-box">
                             <label class="details">Full Name<span>*</span></label>
-                            <input type="text" placeholder="Enter name" required>
+                            <input type="text" name="fname" value="" placeholder="Enter name" required>
                           </div>
                           
                           <div class="input-box">
@@ -62,26 +63,30 @@
                           <div class="input-box">
                             <label class="details">Order Notes</label>
                             <input type="text" placeholder="Enter extra details">                           
-                          </div>  
+                          </div></br>  
 
+                          <label class="title">Please select one<span>*</span></label><br><br>
+                          
                           <div id="box-size" class="tick-box">
-                            <label class="details">Collection<span>*</span></label>
-                            <input type="checkbox" required>
-                        
-                            <label class="details">Christmas Day Delivery<span>*</span></label>
-                            <input class="checkbox" type="checkbox" required> 
+                            <input type="radio" name="gender" value=""><label>Christmas Day Delivery</label>
+                            <input type="radio" name="gender" value=""><label>Christmas Eve Delivery</label>
+                            <input type="radio" name="gender" value=""><label>Collection</label>
                           </div>   
                           <button type="submit" class="btn">Submit</button>   
                         </div>                         
                       </form> 
                 </div>
-                  <div class="contact">
-                    <p>Taste of Lagos is currently open to investment, sponsorship and partnership opportunities. If you are interested, please contact us on info@tasteoflagos.co.uk for further enquiries.</p>
-                    <a href="mailto:info@tasteoflagos.co.uk">info@tasteoflagos.co.uk</a></br>
-                  </div>
-                <footer>
-                  <h2>Taste of Lagos © 2024.</h2></br>Made by Maria Longe
-                </footer>
+                <div class="footer-container">                 
+                  <footer>
+                    <div class="contact">
+                      <p>Taste of Lagos is currently open to investment, sponsorship and partnership opportunities. If you are interested, please contact us on info@tasteoflagos.co.uk for further enquiries.</p>
+                      <a href="mailto:info@tasteoflagos.co.uk">info@tasteoflagos.co.uk</a></br>
+                    </div>
+
+                    <h5>Taste of Lagos © 2024.</h5></br>Made by Maria Longe
+                  </footer>
+                </div>
+
             </main>
 
             <div class="snowflakes" aria-hidden="true">
