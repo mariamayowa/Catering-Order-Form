@@ -3,7 +3,7 @@
   }
   
   body {
-    background: #6fb431;
+    background: #ffffff;
   }
   header h1 {
     text-align: center;
@@ -14,7 +14,7 @@
   header h2 {
     text-align: center;
     display: block;
-    color: #FFF;
+    color: #6fb431;
     text-transform: inherit;
     font-family: 'Molle', cursive;
     font-size: 30px;
@@ -38,10 +38,6 @@
     text-align: center;
   }
 
-  h4 strong {
-    color: white;
-  }
-
   .logo {
     width: 20%;
   }
@@ -53,7 +49,7 @@
   }
   
   nav {
-    background-color: white;
+    background-color: #6fb431;
     padding: 10px;
     position: sticky;
     color: black;
@@ -89,8 +85,6 @@
   li {
     margin-right: 2rem;
   }
-  
-
 
   span {
     color: red;
@@ -113,12 +107,15 @@
       font-size: 13px;
   }
 
+  .title {
+    font-weight: bold;
+  }
+
   .tick-box {
     display: flex;
-    justify-content: space-between;
-    padding: 15px 20px;
-    border-radius: 10px;
+    padding: 15px;
     font-size: 13px;
+    font-weight: bold;
   }
   
   input {
@@ -142,11 +139,13 @@
     padding: 20px 0;
     border-radius: 10px;
     width: 90%;
-    max-width: 800px;
+    max-width: 700px;
     color: #000000;
-    text-align: center;
-    background: rgba(167, 212, 142, 0.447);
+    background: rgba(166, 212, 142, 0.713);
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .box {
@@ -173,25 +172,39 @@
   }
 
   .contact {
-    margin: 20px;
     display: block;
     text-align: center;
-    color: white;
+    color: #ffffff;
+    font-size: 15px;
   }
 
   .contact a {
     color: black;
   }
 
+  h5 {
+    font-size: 15px;;
+    border-top: 1px solid #000000;
+    padding: 10px;
+  }
+
   footer{
     font-size: 10px; 
-    color: rgb(255, 255, 255);
-    border-top: 1px solid #d4ebf4;
+    color: rgb(0, 0, 0);
     padding: 10px 0;
     text-align: center;
     margin: auto;
     display: block;
 }
+
+.footer-container {
+    margin: 20px auto 0;
+    padding: 20px 0;
+    color: #000000;
+    text-align: center;
+    background: #358404;
+  }
+
 
 
 
