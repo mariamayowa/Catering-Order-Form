@@ -13,14 +13,35 @@
   
   header h2 {
     text-align: center;
-    display:block;
+    display: block;
     color: #FFF;
     text-transform: inherit;
     font-family: 'Molle', cursive;
     font-size: 30px;
     margin-top: 0;
   }
+
+  h2 {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
   
+  p {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  }  
+
+  h4 {
+    text-align: center;
+  }
+
+  h4 strong {
+    color: white;
+  }
+
   .logo {
     width: 20%;
   }
@@ -69,12 +90,7 @@
     margin-right: 2rem;
   }
   
-  p {
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding: 20px;
-  }
+
 
   span {
     color: red;
@@ -99,6 +115,10 @@
 
   .tick-box {
     display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 13px;
   }
   
   input {
@@ -119,13 +139,13 @@
   
   .container-form {
     margin: 20px auto 0;
-    padding: 0;
+    padding: 20px 0;
     border-radius: 10px;
     width: 90%;
     max-width: 800px;
     color: #000000;
     text-align: center;
-    background: #fffdfd;
+    background: rgba(167, 212, 142, 0.447);
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   }
 
